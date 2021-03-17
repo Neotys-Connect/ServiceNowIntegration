@@ -1,0 +1,72 @@
+<me-host citrixSupport="false" loadWeight="1" sapSupport="false"
+    standalone="true" supportWANEmulation="false"
+    uid="fe80:0:0:0:d88f:9fea:e7e4:4c19%2" version="7.8.0;build=20210126-42">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface
+        description="Microsoft Virtual WiFi Miniport Adapter"
+        enabled="false" isLoopBack="false" name="wlan1">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:e9f1:a88:81d2:7922%wlan1">
+            <ip value="fe80:0:0:0:e9f1:a88:81d2:7922%wlan1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) Centrino(R) Advanced-N 6200 AGN"
+        enabled="false" isLoopBack="false" name="wlan0">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:a902:cc02:1da9:7f3%wlan0">
+            <ip value="fe80:0:0:0:a902:cc02:1da9:7f3%wlan0"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Intel(R) 82577LM Gigabit Network Connection"
+        enabled="false" isLoopBack="false" name="eth5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="mars.intranet.neotys.com">
+            <ip value="10.0.4.106"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:d88f:9fea:e7e4:4c19%eth5">
+            <ip value="fe80:0:0:0:d88f:9fea:e7e4:4c19%eth5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Périphérique Bluetooth (réseau personnel)"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:40b2:4bfc:e015:ec5a%eth4">
+            <ip value="fe80:0:0:0:40b2:4bfc:e015:ec5a%eth4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="net5">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:6cae:8541:49ca:76e%net5">
+            <ip value="fe80:0:0:0:6cae:8541:49ca:76e%net5"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Microsoft Virtual WiFi Miniport Adapter #2"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:9c9b:163f:5c93:4f53%wlan2">
+            <ip value="fe80:0:0:0:9c9b:163f:5c93:4f53%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</me-host>

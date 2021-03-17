@@ -1,0 +1,6 @@
+<lg-host citrixSupport="false" hostname="MACBOOK-PRO-DE:7100"
+    loadWeight="1" sapSupport="false" standalone="false"
+    supportWANEmulation="false"
+    uid="ef4b74b0-8029-40ba-bf50-1fa215135374" version="7.6.0;build=20200928-41">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

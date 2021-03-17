@@ -1,0 +1,18 @@
+<custom-action actionType="SendSnowContext" isHit="true"
+    name="sendsnowcontext" uid="d3cc544f-c4c3-4aee-bf0a-83982fbfa557">
+    <description>Send the Project Context to NeoLoad WEB ( required to Synchronize the test execution with ServiceNow).
+
+Possible parameters are:&#xd;
+- ArtifactName1 (required): Name of the Artifact 1 Default value is "Name of the Artifact 1".&#xd;
+- ArtifactVersion1 (required): Version of the Artifact 1 Default value is "Version of the Artifact 1".&#xd;
+- PackagesName (required): Name of the packages seperated by , Default value is "Name of the packages seperated by ,".&#xd;
+- StageName (required): Name of the Stage Default value is "Name of the Stage".&#xd;
+- PipelineName (optional): Name of the Pipeline Default value is "Name of the Pipeline".&#xd;
+- BuildNumber (optional): Build Number Default value is "Build Number".</description>
+    <custom-action-parameter name="ArtifactName1" type="TEXT" value="Artifact1-1.0"/>
+    <custom-action-parameter name="ArtifactVersion1" type="TEXT" value="1.0"/>
+    <custom-action-parameter name="PackagesName" type="TEXT" value="superPackage"/>
+    <custom-action-parameter name="StageName" type="TEXT" value="dev"/>
+    <custom-action-parameter name="ArtifactRepoName1" type="TEXT" value="FakeRepo1"/>
+    <responsePageFileDescription>recorded-responses/res_d3cc544f-c4c3-4aee-bf0a-83982fbfa557</responsePageFileDescription>
+</custom-action>

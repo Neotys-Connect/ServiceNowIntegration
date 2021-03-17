@@ -1,0 +1,5 @@
+<lg-host citrixSupport="false" hostname="QAWINL7EN:7100" loadWeight="1"
+    sapSupport="false" standalone="true" supportWANEmulation="true"
+    uid="4c641418-bc6d-47d1-a1e5-e094a32ff06b" version="6.8.0;build=20181113-46">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

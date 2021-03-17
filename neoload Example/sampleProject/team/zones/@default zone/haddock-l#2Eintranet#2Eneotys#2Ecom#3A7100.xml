@@ -1,0 +1,6 @@
+<lg-host citrixSupport="false"
+    hostname="haddock-l.intranet.neotys.com:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="true"
+    uid="0ad5c5d1-611c-40d8-890d-fa36afc653c4" version="7.5.0;build=20200730-20">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

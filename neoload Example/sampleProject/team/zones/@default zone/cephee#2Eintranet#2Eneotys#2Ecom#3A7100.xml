@@ -1,0 +1,6 @@
+<lg-host citrixSupport="false"
+    hostname="cephee.intranet.neotys.com:7100" loadWeight="1"
+    sapSupport="false" standalone="false" supportWANEmulation="false"
+    uid="668dfc36-fdf3-488c-b025-77ce1647a64b" version="7.4.0;build=20200528-24">
+    <!--****** LG NETWORK INTERFACES ******-->
+</lg-host>

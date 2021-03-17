@@ -1,5 +1,5 @@
 # NeoLoad ServiceNow DevOps Integration
-<p align="center"><img src="/screenshot/543-5435205_transparent-servicenow-logo-png-png-download.png" width="40%" alt="ServiceNow" /></p>
+<p align="center"><img src="/screenshot/servicenow.png" width="40%" alt="ServiceNow" /></p>
 
 This project is aimed to integrate NeoLoad with ServiceNow DevOps. The plugin will add the project "context" to neoload Web.
 A project context requires the following information
